@@ -7,18 +7,19 @@ Version 1 only allows for the analysis of basic python scripts that do not conta
 
 ## Documentation 
 
+```
 To analyze the time-complexity of a given python script it will be broken down into three phases. As follows: 
-    1. File Parsing
-        - File Analysis(Includes validating python script)
-        - Counting of Basic Operations
-        - Storage of other related data in tmp file
-    2. Time-Complexity Formula 
-        - Formulas in terms of input size(n) 
-    3. Statistics/Results 
-        - Order of Growth
-        - Operations Counted
-        - Timing statistics given various input sizes 
-
+1. File Parsing
+    - File Analysis(Includes validating python script)
+    - Counting of Basic Operations
+    - Storage of other related data in tmp file
+2. Time-Complexity Formula 
+    - Formulas in terms of input size(n) 
+3. Statistics/Results 
+    - Order of Growth
+    - Operations Counted
+    - Timing statistics given various input sizes 
+```
 ### Phase Outputs
 
 ```
