@@ -25,7 +25,7 @@ To analyze the time-complexity of a given python script it will be broken down i
 ```
 1. File Parsing => (tmp file) 
     - Basic Ops Coutned(dictionary eg. (key: '+', value: 10))
-    - Lines of code (int)
+    - Lines of code (int) for each function
     - etc. 
 
 2. File Parsing => Time-Complexity Formula
@@ -33,7 +33,7 @@ To analyze the time-complexity of a given python script it will be broken down i
 
 3. (tmp file) => Results 
     - Basic Ops Coutned(dictionary eg. (key: '+', value: 10))
-    - Lines of code (int)
+    - Lines of code (int) for each function
 
 4. Formula => Results
     - Time-Complexity Formula String representation
