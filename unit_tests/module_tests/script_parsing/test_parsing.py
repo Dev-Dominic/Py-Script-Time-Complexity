@@ -3,29 +3,29 @@
 import unittest
 import os
 
-def get_test_files(): 
-    """ Retrieves all the associated test files path """
-    path = "test_scripts"
-    return [os.path.join(path, test_file) for test_file in os.listdir(path)] 
 
 class TestScriptParsing(unittest.TestCase): 
     """
-        Ths unit test module will be used to test 
-        the parsing of python scripts.
+        
+    Ths unit test module will be used to test the parsing of python scripts.
+        
+    test_tmp_file      
+    test_time_complex_output
 
-        test_functions_found: Checks for matching number of functions in a script
-        test_basic_ops_count: Checks number of associated basic ops with a given function 
-        test_lines_code: Check that the number of lines of code associated with a given function is matches
     """
-    unit_tests = get_test_files() # Contains path to test files 
+    def get_test_files(): 
+        """ Retrieves all the associated test files path """
+        path = "test_scripts"
+        return [os.path.join(path, test_file) for test_file in os.listdir(path)] 
 
-    def test_functions_found(self): 
-        pass
+    def test_tmp_file(self): 
+        """ 
+        Checks whether tmp output file exists and whether the contents
+        match the 
+        """
+        unit_tests = get_test_files()
 
-    def test_basic_ops_count(self): 
-        pass
-
-    def test_lines_code(self): 
+    def test_time_complex_output(self): 
         pass
 
 if __name__ == "__main__": 
