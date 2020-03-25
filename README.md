@@ -23,7 +23,7 @@ To analyze the time-complexity of a given python script it will be broken down i
 ### Phase Outputs
 
 ```
-1. File Parsing => (tmp file) 
+1. File Parsing => (tmp file) (Stored in dictionary(json))
     - Basic Ops Coutned(dictionary eg. (key: '+', value: 10))
     - Lines of code (int) for each function
     - etc. 
